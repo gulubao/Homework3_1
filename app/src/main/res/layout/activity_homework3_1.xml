@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Homework3_1">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context=".Homework3_1">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:context=".Homework3_1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="@string/a"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginBottom="30dp"
+                android:autoLink="none"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="text|number"
+                android:text="@string/b"
+                android:textSize="40sp" />
+
+
+            <Button
+                android:id="@+id/button1-1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="@string/c" />
+
+            <Button
+                android:id="@+id/button2-1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/holo_orange_dark"
+
+                android:text="@string/d" />
+
+            <Button
+                android:id="@+id/button3-1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginBottom="40dp"
+                android:text="@string/e" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/background_dark"
+
+
+            android:shadowColor="@color/colorPrimaryDark"
+            android:textColor="@android:color/background_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:context=".Homework3_1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="@string/a1"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/editText1-2"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginBottom="30dp"
+                android:autoLink="none"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="text|number"
+                android:text="@string/b"
+                android:textSize="40sp" />
+
+
+            <Button
+                android:id="@+id/button1-2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="@string/c" />
+
+            <Button
+                android:id="@+id/button2-2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="@string/d" />
+
+            <Button
+                android:id="@+id/button3-2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="40dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="@string/e" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_orange_light"
+
+        android:text="@string/f"
+        android:visibility="visible" />
+</LinearLayout>
